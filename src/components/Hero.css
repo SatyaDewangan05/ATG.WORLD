@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap');
+
+
+.hero-container{
+    background: black;
+    height: 440px;
+    position: relative;
+}
+
+.hero{
+    background: url('../image/Rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    overflow: hidden;
+}
+
+.hero-text{
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: white;
+}
+.hero-text h3{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.hero-text p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+@media only screen and (max-width: 992px){
+    .hero-text h3{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .hero-text p{
+        font-family: IBM Plex Sans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+}
